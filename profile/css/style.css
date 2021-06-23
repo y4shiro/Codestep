@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+html {
+	font-size: 100%;
+}
+
+body {
+	color: #383e45;
+	font-size: 0.9rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+/*
+h1 タグ用 
+line-height: 1px; を指定すると、上下の余白を消してロゴ画像の高さと揃える
+line-height: 0px; でも良い
+*/
+.site-title {
+	width: 120px;
+	line-height: 1px;
+	padding: 10px 0;
+}
+
+/* a タグのリンク範囲を親要素のサイズまで拡張 */
+.site-title a {
+	display: block;
+}
+
+/* h2 タグ用 */
+.section-title {
+	display: inline-block;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 60px;
+	border-bottom: solid 1px #383e45;
+}
+
+/* h3 タグ用 */
+.content-title {
+	font-size: 1rem;
+	margin: 10px 0;
+}
+
+/* 画像の最大幅を指定、共通で使用する */
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto 100px auto;
+	padding: 0 4%;
+	text-align: center;
+}
