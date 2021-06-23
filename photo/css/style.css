@@ -100,3 +100,9 @@ img {
 #detail .content .link:hover {
   opacity: 0.8;
 }
+
+/* footer */
+#footer p {
+  font-size: 0.625rem;
+  padding: 15px 0;
+}
