@@ -13,3 +13,18 @@ img {
 ul {
   list-style: none;
 }
+/* サイト全体のコンテンツ幅 */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* 中のコンテンツ部分の最大幅 */
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
