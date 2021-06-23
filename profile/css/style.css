@@ -95,9 +95,7 @@ line-height: 0px; でも良い
   }
 }
 
-/*-------------------------------------------
-About
--------------------------------------------*/
+/* About */
 #about .content {
   display: flex; /* 画像とテキストを横並びに配置します */
   justify-content: center;
@@ -114,13 +112,31 @@ About
 }
 
 @media screen and (max-width: 600px) {
-  /*-------------------------------------------
-  About
-  -------------------------------------------*/
+  /* About */
   #about .content {
     flex-direction: column; /* 画像とテキストを縦並びに配置します */
   }
   #about img {
     margin-right: 0;
+  }
+}
+
+/* Bicycle */
+#bicycle ul {
+  display: flex; /* 画像を横並びに配置します */
+  justify-content: space-between; /* 両端でそろえます */
+}
+#bicycle li {
+  width: 32%;
+}
+
+@media screen and (max-width: 600px) {
+  /* Bicycle */
+  #bicycle ul {
+    flex-direction: column;
+  }
+  #bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
