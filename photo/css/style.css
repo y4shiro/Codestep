@@ -34,7 +34,7 @@ img {
 #header .site-title {
   width: 160px;
   line-height: 1px;
-  margin-bottom: 15p;
+  margin-bottom: 15px;
 }
 #header .site-title a {
   display: block;
@@ -105,4 +105,30 @@ img {
 #footer p {
   font-size: 0.625rem;
   padding: 15px 0;
+}
+
+/* SP */
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 40px;
+  }
+
+  /* header */
+  #header {
+    padding: 0 10px;
+  }
+
+  /* mainvisual */
+  #mainvisual {
+    padding: 0 10px;
+  }
+
+  /* detail */
+  #detail .content {
+    flex-direction: column;
+  }
+  #detail .content .img {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
 }
