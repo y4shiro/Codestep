@@ -140,3 +140,10 @@ line-height: 0px; でも良い
     margin-bottom: 30px;
   }
 }
+
+/* footer */
+#footer {
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
