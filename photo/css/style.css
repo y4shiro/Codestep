@@ -28,3 +28,18 @@ img {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+/* header */
+#header {
+  margin-top: 60px;
+}
+
+#header .site-title {
+  width: 160px;
+  line-height: 1px;
+  margin-bottom: 15p;
+}
+
+#header .site-title a {
+  display: block;
+}
