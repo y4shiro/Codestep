@@ -93,7 +93,7 @@ ul.list li img {
 #detail .flex {
   display: flex;
 }
-#detail .flex dl {
+#detail dl {
   width: 35%;
   border-right: solid 1px #333;
   padding-right: 40px;
@@ -126,4 +126,40 @@ ul.list li img {
   font-size: 0.625rem;
   padding: 15px 0;
   text-align: center;
+}
+
+/* sp mode */
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 20px;
+  }
+  #header {
+    margin: 0 10px;
+  }
+  #index {
+    padding: 40px 20px;
+  }
+  ul.list {
+    flex-direction: column;
+  }
+  ul.list li {
+    width: 100%;
+    text-align: center;
+  }
+  #detail {
+    padding: 40px 20px;
+  }
+  #detail .flex {
+    flex-direction: column;
+  }
+  #detail dl {
+    width: 100%;
+    border-right: none;
+    border-bottom: solid 1px #333;
+    padding: 0 0 40px 0;
+  }
+  #detail .text {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
 }
