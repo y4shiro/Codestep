@@ -41,3 +41,8 @@ ul {
 #header .site-title a {
   display: block;
 }
+
+/* mainvisual */
+#mainvisual {
+  margin-bottom: 60px;
+}
