@@ -68,3 +68,18 @@ ul {
 #index .index-inner .index-list li:last-child {
   margin-bottom: 0;
 }
+
+/* image */
+ul.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 45px 0;
+}
+ul.list li {
+  width: 49%;
+  margin-bottom: 15px;
+}
+ul.list li img {
+  vertical-align: bottom;
+}
