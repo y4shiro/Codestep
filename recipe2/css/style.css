@@ -78,3 +78,18 @@ a {
   padding: 18px 60px;
   text-decoration: none;
 }
+
+/* footer */
+#footer {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#footer .sns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#footer li {
+  margin: 0 8px;
+}
