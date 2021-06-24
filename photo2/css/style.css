@@ -83,3 +83,40 @@ ul.list li {
 ul.list li img {
   vertical-align: bottom;
 }
+
+/* detail */
+#detail {
+  background-color: #f5f5f5;
+  padding: 60px;
+  margin-bottom: 60px;
+}
+#detail .flex {
+  display: flex;
+}
+#detail .flex dl {
+  width: 35%;
+  border-right: solid 1px #333;
+  padding-right: 40px;
+}
+#detail dt {
+  font-weight: bold;
+}
+#detail dd {
+  margin-bottom: 10px;
+}
+#detail dd:last-child {
+  margin-bottom: 0;
+}
+#detail .text {
+  width: 65%;
+  padding-left: 40px;
+}
+#detail .text p {
+  margin-bottom: 20px;
+}
+#detail .text .link {
+  color: #333;
+}
+#detail .text .link:hover {
+  opacity: 0.8;
+}
