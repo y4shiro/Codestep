@@ -31,3 +31,37 @@ a {
   object-fit: cover;
   vertical-align: bottom;
 }
+.flex .recipe {
+  width: 50%;
+  padding: 40px 5% 0 5%;
+}
+.flex .recipe .page-title {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+.flex .recipe .content-title {
+  border-bottom: solid 1px #ccc;
+  font-size: 1.25rem;
+  padding-bottom: 5px;
+  margin: 40px 0 15px 0;
+}
+.flex .recipe .ingredient-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex .recipe .ingredient-list dt {
+  width: 85%;
+  border-bottom: dotted 1px #ccc;
+  padding: 6px 0;
+}
+.flex .recipe .ingredient-list dd {
+  width: 15%;
+  border-bottom: dotted 1px #ccc;
+  padding: 6px 0;
+  text-align: right;
+}
+.flex .recipe .step-list li {
+  border-bottom: dotted 1px #ccc;
+  padding: 6px 0;
+  margin-left: 20px;
+}
