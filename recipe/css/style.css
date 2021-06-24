@@ -35,3 +35,20 @@ a {
 .text .site-title {
   margin-bottom: 20px;
 }
+
+/* image */
+.flex {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.flex li {
+  width: calc(100% / 3);
+}
+
+.flex li img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
