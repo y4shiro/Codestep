@@ -91,5 +91,21 @@ a {
   margin-bottom: 20px;
 }
 #footer li {
-  margin: 0 8px;
+  margin: 0 10px;
+}
+
+/* sp */
+@media screen and (max-width: 834px) {
+  .flex {
+    flex-direction: column;
+  }
+  .flex .image {
+    width: 100%;
+  }
+  .flex .image img {
+    height: auto;
+  }
+  .flex .recipe {
+    width: 100%;
+  }
 }
