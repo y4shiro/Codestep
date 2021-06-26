@@ -18,3 +18,9 @@ a {
   color: #2d2d2d;
   text-decoration: none;
 }
+
+/* Mainvisual */
+#mainvisual {
+  width: 90vw;
+  margin: 4% auto 0 auto;
+}
