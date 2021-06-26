@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  color: #2d2d2d;
+  font-family: 'Crimson Text', serif;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
