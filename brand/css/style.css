@@ -38,9 +38,32 @@ a {
   font-weight: normal;
   margin-bottom: 4px;
 }
+.section-title-en {
+  display: inline-block;
+  margin-bottom: 25px;
+}
 
 /* Mainvisual */
 #mainvisual {
   width: 90vw;
   margin: 4% auto 0 auto;
+}
+
+/* Header */
+#header {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
+  margin: 0 auto 30px auto;
+}
+#header ul {
+  display: flex;
+}
+#header li {
+  font-size: 0.875rem;
+  margin-right: 30px;
+}
+#header li:last-child {
+  margin-right: 0;
 }
