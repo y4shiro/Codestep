@@ -19,6 +19,26 @@ a {
   text-decoration: none;
 }
 
+/* main と footer のコンテンツ幅を設定 */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+.site-title {
+  width: 110px;
+  line-height: 1px;
+  margin-right: 50px;
+}
+.site-title a {
+  display: block;
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
 /* Mainvisual */
 #mainvisual {
   width: 90vw;
