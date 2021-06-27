@@ -72,3 +72,12 @@ li {
   height: 420px;
   object-fit: cover;
 }
+
+/* about */
+#about ul,
+#about li:first-child {
+  margin-bottom: 30px;
+}
+#about p {
+  text-align: justify;
+}
