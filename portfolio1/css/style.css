@@ -148,3 +148,11 @@ li {
   background: #fff;
   color: #24292e;
 }
+
+#footer {
+  background-color: #24292e;
+  color: #fff;
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+}
