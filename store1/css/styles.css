@@ -57,3 +57,38 @@ li {
   top: 30px;
   right: 30px;
 }
+
+/* Magazine */
+.magazine {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.magazine .flex-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+/* テキストを上に重ねるために、
+親要素の position に relative を設定 */
+.magazine .flex-item .item {
+  width: 49%;
+  position: relative;
+}
+/* position: absolute を設定し、
+top / left / right で位置を調整 */
+.magazine .flex-item .item .text {
+  max-width: 290px;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+.magazine .flex-item .item .title {
+  font-size: 1.25rem;
+  margin-bottom: 2px;
+}
