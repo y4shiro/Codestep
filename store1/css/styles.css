@@ -92,3 +92,15 @@ top / left / right で位置を調整 */
   font-size: 1.25rem;
   margin-bottom: 2px;
 }
+
+/* Fashion */
+.fashion {
+  height: 520px;
+  background-image: url('../img/fashion.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 80px;
+}
