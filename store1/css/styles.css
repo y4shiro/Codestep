@@ -104,3 +104,31 @@ top / left / right で位置を調整 */
   padding-top: 60px;
   margin-bottom: 80px;
 }
+
+/* Catalog & Antique */
+.catalog-antique {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+.catalog-antique .sec-title {
+  margin-bottom: 40px;
+}
+.catalog-antique .flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.catalog-antique .item {
+  width: 48%;
+  text-align: center;
+}
+.catalog-antique .item img {
+  width: 100%;
+}
+.catalog-antique .item p {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.catalog-antique .item p:last-child {
+  margin-bottom: 0;
+}
