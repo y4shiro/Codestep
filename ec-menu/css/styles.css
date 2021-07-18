@@ -147,3 +147,12 @@ nav .login li {
   border-bottom: solid 1px #c3c3c3;
   text-align: center;
 }
+
+/* footer */
+.footer {
+  padding: 10px 0;
+}
+.footer .copyright {
+  font-size: 0.625rem;
+  text-align: center;
+}
