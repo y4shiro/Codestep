@@ -58,3 +58,15 @@ nav .menu li {
 nav .login li {
   margin-left: 14px;
 }
+
+/* 商品ページ */
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.item .item-image {
+  max-width: 400px;
+  flex-shrink: 0;
+  margin-right: 60px;
+}
