@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 html {
   font-size: 100%;
@@ -35,7 +35,9 @@ table {
   margin: 0 auto;
 }
 
-/* header */
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
 .header {
   max-width: 1000px;
   padding: 46px 0 26px 0;
@@ -59,17 +61,31 @@ nav .login li {
   margin-left: 14px;
 }
 
-/* 商品ページ */
+/*-------------------------------------------
+商品ページ
+-------------------------------------------*/
 .item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
+/*
+flex-shrink: 0;
+画像が縮小されるのを防ぐ
+*/
 .item .item-image {
   max-width: 400px;
   flex-shrink: 0;
   margin-right: 60px;
 }
+.item .item-info p {
+  margin-bottom: 30px;
+  line-height: 1.9;
+}
+/*
+「display: flex;」と「align-items: center;」で、
+高さを中央にそろえる
+*/
 .item .item-info .item-title {
   height: 60px;
   display: flex;
@@ -91,9 +107,16 @@ nav .login li {
 .item .item-info .order-table .quantity {
   width: 60%;
 }
+/*
+テーブルの線は重ならないように設定（外枠なしのレイアウト）
+１．tdの上を設定
+*/
 .item .item-info .order-table td {
   border-top: solid 1px #c3c3c3;
 }
+/*
+２．th、tdの右を設定
+*/
 .item .item-info .order-table th,
 .item .item-info .order-table td {
   font-weight: normal;
@@ -101,10 +124,18 @@ nav .login li {
   border-right: solid 1px #c3c3c3;
   text-align: center;
 }
+/*
+３．th、tdの最後だけ右の線を消す
+*/
 .item .item-info .order-table th:last-child,
 .item .item-info .order-table td:last-child {
   border-right: none;
 }
+/*
+-moz-appearance: menulist;
+-webkit-appearance: menulist;
+セレクトボックスに右端の矢印を表示
+*/
 .item .item-info .order-table select {
   width: 100%;
   border: solid 1px #c3c3c3;
@@ -122,6 +153,10 @@ nav .login li {
   margin-bottom: 30px;
   text-align: center;
 }
+/*
+テーブルの線は重ならないように設定（外枠ありのレイアウト）
+１．テーブルの上と左に設定
+*/
 .item .item-info .size-table {
   width: 100%;
   border-top: solid 1px #c3c3c3;
@@ -138,7 +173,9 @@ nav .login li {
 .item .item-info .size-table th {
   background-color: #ecebeb;
 }
-
+/*
+２．th、tdの右と下に設定
+*/
 .item .item-info .size-table th,
 .item .item-info .size-table td {
   font-weight: normal;
@@ -148,7 +185,9 @@ nav .login li {
   text-align: center;
 }
 
-/* footer */
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
 .footer {
   padding: 10px 0;
 }
@@ -157,21 +196,32 @@ nav .login li {
   text-align: center;
 }
 
-/* SP */
+/*-------------------------------------------
+SP
+-------------------------------------------*/
 @media screen and (max-width: 896px) {
   .site-title {
     margin-bottom: 26px;
   }
 
+  /*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
   .header {
     margin-bottom: 0;
     border-bottom: none;
     padding: 36px 16px 16px 16px;
   }
+  /*
+  横スクロールできるようにする
+  */
   nav {
     overflow-x: scroll;
   }
 
+  /*-------------------------------------------
+  商品ページ
+  -------------------------------------------*/
   .item {
     flex-direction: column;
   }
