@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 0.875rem;
+}
+a {
+  color: #000;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+
+.logo {
+  width: 100px;
+  line-height: 1px;
+  margin-right: 60px;
+}
+.logo {
+  display: block;
+}
+.section-title {
+  font-weight: normal;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+/* 疑似要素を使って下線を引く */
+.section-title::after {
+  content: '';
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+/* display: inline-block; を設定してブロック化することで、
+改行されて margin-bottom が使用可能になる */
+.section-title .en {
+  display: block;
+  font-size: 2.25rem;
+  letter-spacing: 0.3em;
+  margin-bottom: 10px;
+}
+.section-title .ja {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 36px;
+}
+
+/* 横幅設定の共通クラス */
+.wrapper {
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
