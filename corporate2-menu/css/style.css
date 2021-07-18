@@ -26,7 +26,7 @@ li {
   line-height: 1px;
   margin-right: 60px;
 }
-.logo {
+.logo a {
   display: block;
 }
 .section-title {
@@ -62,4 +62,39 @@ li {
   max-width: 1032px;
   padding: 0 16px;
   margin: 0 auto;
+}
+
+/* header */
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .inner {
+  display: flex;
+  align-items: center;
+}
+.header .inner ul {
+  display: flex;
+  align-items: flex-end;
+}
+.header .inner li {
+  margin-right: 30px;
+}
+.header .inner li:last-child {
+  margin-right: 0px;
+}
+.header .contact {
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  display: inline-block;
+  text-align: center;
+}
+.header .contact:hover {
+  background-color: #333;
 }
