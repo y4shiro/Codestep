@@ -156,3 +156,30 @@ nav .login li {
   font-size: 0.625rem;
   text-align: center;
 }
+
+/* SP */
+@media screen and (max-width: 896px) {
+  .site-title {
+    margin-bottom: 26px;
+  }
+
+  .header {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding: 36px 16px 16px 16px;
+  }
+  nav {
+    overflow-x: scroll;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+  .item .item-image {
+    max-width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .item .item-info {
+    padding: 0 16px;
+  }
+}
