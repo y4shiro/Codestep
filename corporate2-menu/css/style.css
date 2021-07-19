@@ -108,3 +108,38 @@ li {
   height: calc(100vh - 80px);
   object-fit: cover;
 }
+
+/* News */
+.news {
+  margin-bottom: 120px;
+}
+.news .list {
+  display: flex;
+  justify-content: space-between;
+}
+.news .list li {
+  width: calc(100% / 3);
+  border-right: solid 1px #000;
+  padding: 10px 20px;
+}
+.news .list li:first-child {
+  padding-left: 0;
+}
+.news .list li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.news .list li .date-area {
+  margin-bottom: 16px;
+}
+.news .list li .date-area span {
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-left: 10px;
+  text-align: center;
+}
