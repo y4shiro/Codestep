@@ -250,3 +250,21 @@ li {
 .company .info .add {
   margin-left: 20%;
 }
+
+/* footer */
+.footer {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+.footer .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.footer .flex .logo {
+  margin-right: 0;
+}
+.footer .copylight {
+  font-size: 0.625rem;
+}
