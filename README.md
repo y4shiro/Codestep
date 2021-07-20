@@ -26,7 +26,7 @@ JavaScript はそこそこ書けるが、CSS が弱いので学ぶ
 - [x] portfolio1 フォトグラファーのポートフォリオサイト
 - [x] store1 書店のストアサイト
 - [x] ec EC サイトの商品ページ
-- [ ] corporate2 コーポレートサイト
+- [x] corporate2 コーポレートサイト
 - [ ] store3 和菓子のストアサイト
 
 ### 中級編
