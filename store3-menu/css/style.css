@@ -36,3 +36,41 @@ li {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+/* header */
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/mainvisual-pc.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 60px 80px;
+  margin-bottom: 180px;
+  /* "オンラインストアを見る"ボタンを配置するための position */
+  position: relative;
+  /* 縦書き指定 */
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl; /* Chrome、Safari用 */
+  -moz-writing-mode: vertical-rl; /* Firefox用 */
+  -ms-writing-mode: tb-rl; /* IE用 */
+}
+/* "オンラインストアを見る"ボタン */
+.header .onlinestore {
+  background: rgb(255, 255, 255, 0.2);
+  padding: 8px;
+  position: absolute;
+  left: 40px;
+  bottom: 30px;
+}
+.header .onlinestore a {
+  display: block;
+  border: solid 1px #ccc;
+  padding: 30px 18px;
+}
+.header .onlinestore a:hover {
+  opacity: 0.7;
+}
+.nav li {
+  margin-left: 25px;
+}
