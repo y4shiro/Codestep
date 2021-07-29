@@ -178,3 +178,9 @@ li {
 
   right: -20px;
 }
+
+/* shop */
+#shop iframe {
+  width: 100%;
+  vertical-align: bottom;
+}
