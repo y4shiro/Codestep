@@ -164,3 +164,17 @@ li {
   background-color: rgba(249, 233, 6, 0.6);
   left: -20px;
 }
+
+/* Products2 */
+#products2 .section-title {
+  margin-right: 20px;
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -moz-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+}
+#products2 .text {
+  background: rgba(149, 42, 38, 0.6);
+
+  right: -20px;
+}
