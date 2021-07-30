@@ -184,3 +184,42 @@ li {
   width: 100%;
   vertical-align: bottom;
 }
+
+/* footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 80px 30px 30px;
+}
+.footer .inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+.footer .inner .left,
+.footer .inner .right {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+}
+.footer .inner .logo {
+  width: 40px;
+  margin-left: 60px;
+}
+.footer .inner .info {
+  line-height: 2;
+}
+.footer .menu {
+  font-size: 1rem;
+  margin-right: 60px;
+}
+.footer li {
+  margin-left: 25px;
+}
+.footer .copyright {
+  font-size: 0.625rem;
+  text-align: center;
+}
