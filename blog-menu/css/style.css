@@ -50,7 +50,7 @@ width / height で千の長さ高さを設定 */
 /* ホバー時の下線の設定 */
 .readmore a:hover::after {
   opacity: 0;
-  transition: translateY(3px);
+  transform: translateY(3px);
 }
 
 /* header */
@@ -81,4 +81,17 @@ width / height で千の長さ高さを設定 */
 .navi li {
   font-size: 0.875rem;
   padding: 10px 60px 10px 0;
+}
+
+/* pickup */
+.pickup {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+.pickup .article-title {
+  font-size: 1rem;
+  margin: 10px 0 15px 0;
 }
