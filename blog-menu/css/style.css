@@ -95,3 +95,38 @@ width / height で千の長さ高さを設定 */
   font-size: 1rem;
   margin: 10px 0 15px 0;
 }
+
+/* container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+main {
+  width: 65%;
+}
+main article {
+  margin-bottom: 80px;
+}
+main .article-title {
+  font-size: 1.5rem;
+  margin: 10px 0 15px 0;
+}
+main ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+main li {
+  font-size: 0.875rem;
+  margin-right: 20px;
+}
+main .text {
+  padding: 10px 40px 30px 40px;
+}
+
+/* aside */
+.sidebar {
+  width: 33%;
+  padding: 20px;
+}
