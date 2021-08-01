@@ -232,3 +232,42 @@ main .text {
   text-align: center;
   padding: 10px 0;
 }
+
+/* SP */
+@media screen and (max-width: 767px) {
+  .header .site-title {
+    padding: 20px 16px;
+  }
+  .navi {
+    overflow-x: scroll;
+  }
+
+  .pickup {
+    flex-direction: column;
+    padding-top: 140px;
+  }
+  .pickup article {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+  main {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer .content {
+    flex-direction: column;
+  }
+  .footer .item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
