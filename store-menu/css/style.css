@@ -82,3 +82,40 @@ nav li a {
 nav li a:hover {
   color: #e03131;
 }
+
+/* menu */
+#menu {
+  margin-top: 20px;
+}
+#menu .menu-img {
+  background-image: url(../img/menu.jpeg);
+  position: relative;
+}
+#menu .menu-content {
+  display: flex;
+}
+#menu .menu-item {
+  width: 50%;
+  padding: 0 45px;
+}
+#menu .menu-item:first-child {
+  border-right: solid 1px #000;
+}
+#menu .menu-item dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#menu .menu-item dt {
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 24px;
+}
+#menu .menu-item dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+}
+#menu .menu-item dl.food {
+  margin-bottom: 55px;
+}
