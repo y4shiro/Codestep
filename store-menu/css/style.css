@@ -54,3 +54,31 @@ li {
   margin: 0 auto;
   text-align: center;
 }
+
+/* header */
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/mainvisual.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 20px 40px;
+  position: relative;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav li {
+  margin-left: 30px;
+}
+nav li a {
+  color: #fff;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px 2px #121212);
+  transition: color 0.3s ease;
+}
+nav li a:hover {
+  color: #e03131;
+}
