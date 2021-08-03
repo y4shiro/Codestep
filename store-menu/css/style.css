@@ -219,3 +219,10 @@ nav li a:hover {
 #location .item-info p {
   margin-bottom: 10px;
 }
+
+/* footer */
+.footer {
+  font-size: 0.65rem;
+  padding: 10px 0;
+  text-align: center;
+}
