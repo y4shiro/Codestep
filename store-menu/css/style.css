@@ -226,3 +226,54 @@ nav li a:hover {
   padding: 10px 0;
   text-align: center;
 }
+
+/* SP */
+@media screen and (max-width: 767px) {
+  .site-title {
+    top: 42%;
+  }
+  .sec-title {
+    font-size: 2rem;
+    top: 26%;
+  }
+  .item-title {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+  }
+  .fixed-bg {
+    height: 94px;
+    background-attachment: scroll;
+  }
+  .wrapper {
+    padding: 30px 16px 60px 16px;
+  }
+
+  /* Menu */
+  #menu {
+    margin-top: 10px;
+  }
+  #menu .menu-content {
+    flex-direction: column;
+  }
+  #menu .menu-item {
+    width: 100%;
+    padding: 0;
+  }
+  #menu .menu-item:first-child {
+    border-right: none;
+  }
+  #menu .menu-item dl {
+    margin-bottom: 10px;
+  }
+  #menu .menu-item dl.food {
+    margin-bottom: 10px;
+  }
+
+  /* About */
+  #about ul {
+    flex-direction: column;
+  }
+  #about li {
+    width: 100%;
+  }
+}
