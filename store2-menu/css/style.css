@@ -130,3 +130,29 @@ li {
   z-index: 10;
   cursor: pointer;
 }
+
+/* top, products */
+#top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.product-list li {
+  width: 23%;
+  margin-bottom: 40px;
+}
+.product-list img {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.product-list p {
+  font-size: 0.75rem;
+}
+.link-text {
+  display: block;
+  text-align: center;
+}
