@@ -33,7 +33,7 @@ JavaScript はそこそこ書けるが、CSS が弱いので学ぶ
 
 - [x] blog-menu ブログサイト
 - [x] store-menu ストアサイト(カフェ)
-- [ ] store2-menu ストアサイト(インテリア)
+- [x] store2-menu ストアサイト(インテリア)
 - [ ] lq-menu ランディングページ
 
 ### 上級編
