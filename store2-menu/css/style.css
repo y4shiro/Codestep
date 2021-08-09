@@ -189,6 +189,15 @@ li {
   width: 70%;
 }
 
+/* about */
+#about {
+  width: 600px;
+}
+#about p {
+  line-height: 1.9;
+  margin-bottom: 30px;
+}
+
 /* footer */
 #footer {
   display: flex;
