@@ -156,6 +156,11 @@ li {
   display: block;
   text-align: center;
 }
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+}
 
 /* footer */
 #footer {
