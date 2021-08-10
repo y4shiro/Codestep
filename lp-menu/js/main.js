@@ -1,18 +1,18 @@
-$(function () {
-  $('.hamburger').on('click', function () {
-    hamburger();
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.querySelector('.hamburger');
+  const navi = document.querySelector('#navi');
+
+  hamburger.addEventListener('click', () => {
+    toggleActiveClass();
   });
-  $('#navi a').on('click', function () {
-    hamburger();
-  });
+
+  const toggleActiveClass = () => {
+    hamburger.classList.toggle('active');
+
+    if (hamburger.classList.contains('active')) {
+      navi.classList.add('active');
+    } else {
+      navi.classList.remove('active');
+    }
+  };
 });
-
-function hamburger() {
-  $('.hamburger').toggleClass('active');
-
-  if ($('.hamburger').hasClass('active')) {
-    $('#navi').addClass('active');
-  } else {
-    $('#navi').removeClass('active');
-  }
-}
