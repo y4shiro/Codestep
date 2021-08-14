@@ -407,3 +407,50 @@ li {
     opacity: 1;
   }
 }
+
+/* summary */
+#summary {
+  background: url('../img/bg.gif') repeat;
+  animation: fall 10s infinite linear;
+  padding: 60px 0;
+  margin-bottom: 120px;
+}
+@keyframes fall {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -700px 700px;
+  }
+}
+
+#summary .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#summary .menu li {
+  width: 48%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 60px;
+  margin-bottom: 32px;
+}
+#summary .menu li:nth-child(n + 3) {
+  margin-bottom: 0;
+}
+#summary .menu-title {
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+#summary .menu-title .ja {
+  display: block;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+#summary .menu-title .en {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
