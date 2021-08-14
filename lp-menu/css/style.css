@@ -325,3 +325,85 @@ li {
     transform: translateX(100%);
   }
 }
+
+/* voice */
+#voice {
+  margin-bottom: 120px;
+}
+#voice .item-left,
+#voice .item-right {
+  display: flex;
+  align-items: flex-start;
+  opacity: 0;
+  margin-bottom: 60px;
+}
+#voice .item-left {
+  justify-content: flex-start;
+}
+#voice .item-left:last-of-type {
+  margin-bottom: 0;
+}
+#voice .item-right {
+  justify-content: flex-end;
+}
+#voice .student img {
+  width: 120px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#voice .student .name {
+  font-size: 0.75rem;
+  text-align: center;
+}
+/* ふきだしを設定 */
+#voice .item-left .balloon-text,
+#voice .item-right .balloon-text {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  background: #e9f1fb;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+#voice .item-left .balloon-text {
+  margin-left: 25px;
+}
+/* 左のふきだしの矢印部分を設定 */
+#voice .item-left .balloon-text::before {
+  content: '';
+  position: absolute;
+  top: 60%;
+  left: 0;
+  margin-left: -30px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e9f1fb;
+}
+#voice .item-right .balloon-text {
+  margin-right: 25px;
+}
+/* 右のふきだしの矢印部分を設定 */
+#voice .item-right .balloon-text::before {
+  content: '';
+  position: absolute;
+  top: 60%;
+  right: 0;
+  margin-right: -30px;
+  border: 15px solid transparent;
+  border-left: 15px solid #e9f1fb;
+}
+/* アニメーションを実行 */
+#voice .balloon {
+  animation: balloon 0.5s ease-out 0s 1 forwards;
+}
+@keyframes balloon {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
