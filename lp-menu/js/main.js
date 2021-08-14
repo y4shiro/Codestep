@@ -41,11 +41,12 @@ const observerInview = (className) => {
     rootMargin: '10px',
     threshold: 0,
   };
-  const callback = (entries) => {
+  const callback = (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         console.log(className);
         target.classList.add(className);
+        observer.unobserve(entry.target);
       }
     });
   };
