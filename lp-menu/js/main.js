@@ -17,25 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // Inview
-  // ここは jQuery + プラグインを使用
-  // intersection observer で書き直した
+  // jQuery + プラグインを使用していたが intersection observer で書き直した
   observerInview('slide-left');
   observerInview('slide-right');
-
-  // 受講生の声（ふきだし）
-  $('.inview-balloon').on(
-    'inview',
-    function (event, isInView, visiblePartX, visiblePartY) {
-      if (isInView) {
-        // 要素が表示されたらballoonクラスを追加
-        $(this).stop().addClass('balloon');
-      }
-    }
-  );
+  observerInview('balloon');
 });
 
 const observerInview = (className) => {
-  const target = document.querySelector(`.inview-${className}`);
+  const targets = document.querySelectorAll(`.inview-${className}`);
   const options = {
     root: null,
     rootMargin: '10px',
@@ -44,12 +33,11 @@ const observerInview = (className) => {
   const callback = (entries, observer) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log(className);
-        target.classList.add(className);
+        entry.target.classList.add(className);
         observer.unobserve(entry.target);
       }
     });
   };
   const observer = new IntersectionObserver(callback, options);
-  observer.observe(target);
+  targets.forEach((target) => observer.observe(target));
 };
