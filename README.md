@@ -37,3 +37,6 @@ JavaScript はそこそこ書けるが、CSS が弱いので学ぶ
 - [x] lq-menu ランディングページ
 
 ### 上級編
+
+- [ ] media-menu メディアサイト
+- [ ] gallery-menu ギャラリーメニュー
